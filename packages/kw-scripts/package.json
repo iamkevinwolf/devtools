@@ -1,0 +1,19 @@
+{
+  "version": "0.0.0",
+  "name": "@kevinwolf/kw-scripts",
+  "author": "Kevin Wolf <hi@kevinwolf.me>",
+  "description": "Command line interface for code generation, linting, testing and more.",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinwolfcr/devtools/tree/master/packages/scripts",
+  "repository": "https://github.com/kevinwolfcr/devtools",
+  "bugs": "https://github.com/kevinwolfcr/devtools/issues",
+  "bin": {
+    "kw-scripts": "./bin/kw-scripts.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "lodash.sortby": "^4.7.0"
+  },
+  "devDependencies": {}
+}

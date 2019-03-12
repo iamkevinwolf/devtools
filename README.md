@@ -30,6 +30,7 @@ tools for my JavaScript and TypeScript projects.
 
 <p align="center">
 <!-- START packages-versions -->
+<a href="./packages/kw-scripts#readme"><img src="https://img.shields.io/npm/v/@kevinwolf/kw-scripts.svg?label=%40kevinwolf%2Fkw-scripts&style=flat-square" alt="@kevinwolf/kw-scripts"></a>
 <!-- END packages-versions -->
 </p>
 
@@ -55,7 +56,7 @@ I have created this _monorepo_ powered by [Yarn workspaces](https://yarnpkg.com/
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [📝 Usage](#-usage)
-- [🛠 Included packages](#%F0%9F%9B%A0-included-packages)
+- [📦 Included packages](#-included-packages)
 - [🍻 Contributors](#-contributors)
 - [✅ Other solutions](#-other-solutions)
 - [❤️ Inspiration and special thanks](#-inspiration-and-special-thanks)
@@ -71,10 +72,13 @@ Usage instructions are different depending on the [package](#-included-packages)
 
 <!-- END usage -->
 
-## 🛠 Included packages
+## 📦 Included packages
 
 <!-- START included-packages -->
-<!-- END included-packages -->
+
+- [@kevinwolf/kw-scripts](./packages/kw-scripts#readme)
+
+  <!-- END included-packages -->
 
 ## 🍻 Contributors
 
