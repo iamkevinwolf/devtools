@@ -1,15 +1,21 @@
 #!/usr/bin/env node
+/* eslint-disable global-require */
 const program = require('commander')
 const sortBy = require('lodash.sortby')
-const chalk = require('chalk')
 
 const pkg = require('../package.json')
+const { logError, logInfo } = require('../src/logger')
 
 program.version(pkg.version).description(pkg.description)
 
 const commands = [
-  { command: 'echo', description: 'log something', action: () => {} },
-  // END: commands
+  // START commands
+  {
+    command: 'generate [generator]',
+    description: 'run a code generator',
+    action: require('../src/generate'),
+  },
+  // END commands
 ]
 
 sortBy(commands, ({ command }) => command).forEach(
@@ -22,11 +28,10 @@ sortBy(commands, ({ command }) => command).forEach(
 )
 
 program.on('command:*', function unknownCommand() {
-  console.log(chalk.red(`\nInvalid command: \`${program.args.join(' ')}\``))
-  console.log(chalk.dim('Run with --help for a list of available commands.\n'))
+  logError(`Invalid command: \`${program.args.join(' ')}\`.`)
+  logInfo('Run with --help for a list of available commands.\n')
   process.exit(1)
 })
 
 program.parse(process.argv)
-
 if (!program.args.length) program.help()

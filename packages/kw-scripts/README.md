@@ -9,7 +9,7 @@ Command line interface for code generation, linting, testing and more.
 </p>
 
 <p align="center">
-<small><em>(part of <a href="../../">@kevinwolf/devtools</a>)</em></small>
+<small><em>(part of <a href="https://github.com/kevinwolfcr/devtools">@kevinwolf/devtools</a>)</em></small>
 </p>
 
 <p align="center">
