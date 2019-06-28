@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "echo Lint task unavailable.",
+    "test": "echo Test task unavailable.",
+    "build": "echo Build task unavailable.",
+    "validate": "yarn lint && yarn test --silent --coverage && yarn build",
+    "setup": "yarn install && yarn validate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "doctoc": "^1.4.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.0.0",
+    "prettier": "^1.18.2"
+  }
+}
