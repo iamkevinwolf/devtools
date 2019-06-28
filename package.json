@@ -4,17 +4,19 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "echo Lint task unavailable.",
-    "test": "echo Test task unavailable.",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "jest",
     "build": "echo Build task unavailable.",
     "validate": "yarn lint && yarn test --silent --coverage && yarn build",
-    "setup": "yarn install && yarn validate"
+    "setup": "yarn install && yarn validate",
+    "eslint-config": "yarn workspace @kevinwolf/eslint-config"
   },
   "dependencies": {},
   "devDependencies": {
     "codecov": "^3.5.0",
     "doctoc": "^1.4.0",
     "husky": "^3.0.0",
+    "jest": "^24.8.0",
     "lint-staged": "^9.0.0",
     "prettier": "^1.18.2"
   }

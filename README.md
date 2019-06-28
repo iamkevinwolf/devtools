@@ -29,11 +29,6 @@ tools for my JavaScript and TypeScript projects.
 <!-- END status-badges -->
 </p>
 
-<p align="center">
-<!-- START packages-versions -->
-<!-- END packages-versions -->
-</p>
-
 ## 🤔 Problem
 
 <!-- START the-problem -->
@@ -76,9 +71,9 @@ Usage instructions are different depending on the [package](#-included-packages)
 
 <!-- START included-packages -->
 
-| name | description |
-| ---- | ----------- |
-
+| name                                                                                                                                                                     | description                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| [![@kevinwolf/eslint-config](https://img.shields.io/npm/v/@kevinwolf/kw-scripts.svg?label=%40kevinwolf%2Fkw-scripts&style=flat-square)](./packages/eslint-config#readme) | 🔦Opinionated shareable ESLint configuration with automatic dependency detection. |
 
   <!-- END included-packages -->
 
