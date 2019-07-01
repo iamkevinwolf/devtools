@@ -22,7 +22,7 @@ tools for my JavaScript and TypeScript projects.
 <p align="center">
 <!-- START status-badges -->
 <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
-<a href="#-contributors"><img src="https://img.shields.io/badge/all_contributors-0-blue.svg?style=flat-square" alt="All Contributors" /></a>
+<a href="#-contributors"><img src="https://img.shields.io/badge/all_contributors-1-blue.svg?style=flat-square" alt="All Contributors" /></a>
 <a href="https://travis-ci.org/kevinwolfcr/devtools"><img src="https://img.shields.io/travis/kevinwolfcr/devtools.svg?style=flat-square" alt="Build Status" /></a>
 <a href="https://codecov.io/github/kevinwolfcr/devtools"><img src="https://img.shields.io/codecov/c/github/kevinwolfcr/devtools.svg?style=flat-square" alt="Code Coverage" /></a>
 <a href="https://greenkeeper.io"><img src="https://badges.greenkeeper.io/kevinwolfcr/devtools.svg?style=flat-square" alt="Greenkeeper" /></a>
@@ -87,6 +87,9 @@ Usage instructions are different depending on the [package](#-included-packages)
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START  -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://kevinwolf.me"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt="Kevin Wolf"/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Code">💻</a> <a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Documentation">📖</a> <a href="#ideas-kevinwolfcr" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-kevinwolfcr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-kevinwolfcr" title="Maintenance">🚧</a> <a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Tests">⚠️</a></td></tr></table>
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kevinwolfcr",
+      "name": "Kevin Wolf",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3157426?v=4",
+      "profile": "https://kevinwolf.me",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "infra",
+        "maintenance",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "devtools",
+  "projectOwner": "kevinwolfcr",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
