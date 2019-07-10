@@ -13,3 +13,5 @@ before_install:
 script:
   - yarn validate
   - yarn codecov
+
+after_success: ./deploy.sh

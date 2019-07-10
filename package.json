@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore",
     "test": "jest",
     "build": "echo Build task unavailable.",
     "validate": "yarn lint && yarn test --silent --coverage && yarn build",
@@ -17,6 +17,7 @@
     "doctoc": "^1.4.0",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
+    "lerna": "^3.15.0",
     "lint-staged": "^9.0.0",
     "prettier": "^1.18.2"
   }
