@@ -9,7 +9,7 @@ Opinionated shareable ESLint configuration with automatic dependency detection.
 </p>
 
 <p align="center">
-<small><em>(part of <a href="https://github.com/kevinwolfcr/devtools">@kevinwolf/devtools</a>)</em></small>
+<small><em>(part of <a href="https://github.com/iamkevinwolf/devtools">@kevinwolf/devtools</a>)</em></small>
 </p>
 
 <p align="center">

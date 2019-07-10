@@ -6,7 +6,7 @@
   "commit": false,
   "contributors": [
     {
-      "login": "kevinwolfcr",
+      "login": "iamkevinwolf",
       "name": "Kevin Wolf",
       "avatar_url": "https://avatars2.githubusercontent.com/u/3157426?v=4",
       "profile": "https://kevinwolf.me",
@@ -22,7 +22,7 @@
   ],
   "contributorsPerLine": 7,
   "projectName": "devtools",
-  "projectOwner": "kevinwolfcr",
+  "projectOwner": "iamkevinwolf",
   "repoType": "github",
   "repoHost": "https://github.com"
 }

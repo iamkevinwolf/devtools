@@ -6,9 +6,9 @@
 
 <p align="center">
 <!-- START social-badges -->
-<a href="https://github.com/kevinwolfcr/devtools/watchers"><img src="https://img.shields.io/github/watchers/kevinwolfcr/devtools.svg?style=social" alt="Watch on GitHub" /></a>
-<a href="https://github.com/kevinwolfcr/devtools/stargazers"><img src="https://img.shields.io/github/stars/kevinwolfcr/devtools.svg?style=social" alt="Star on GitHub" /></a>
-<a href="https://twitter.com/intent/tweet?text=Check out @kevinwolfcr devtools! https://github.com/kevinwolfcr/devtools"><img src="https://img.shields.io/twitter/url/https/github.com/kevinwolfcr/devtools.svg?style=social" alt="Tweet!" /></a>
+<a href="https://github.com/iamkevinwolf/devtools/watchers"><img src="https://img.shields.io/github/watchers/iamkevinwolf/devtools.svg?style=social" alt="Watch on GitHub" /></a>
+<a href="https://github.com/iamkevinwolf/devtools/stargazers"><img src="https://img.shields.io/github/stars/iamkevinwolf/devtools.svg?style=social" alt="Star on GitHub" /></a>
+<a href="https://twitter.com/intent/tweet?text=Check out @iamkevinwolf devtools! https://github.com/iamkevinwolf/devtools"><img src="https://img.shields.io/twitter/url/https/github.com/iamkevinwolf/devtools.svg?style=social" alt="Tweet!" /></a>
 <!-- END social-badges -->
 </p>
 
@@ -23,9 +23,9 @@ tools for my JavaScript and TypeScript projects.
 <!-- START status-badges -->
 <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
 <a href="#-contributors"><img src="https://img.shields.io/badge/all_contributors-1-blue.svg?style=flat-square" alt="All Contributors" /></a>
-<a href="https://travis-ci.org/kevinwolfcr/devtools"><img src="https://img.shields.io/travis/kevinwolfcr/devtools.svg?style=flat-square" alt="Build Status" /></a>
-<a href="https://codecov.io/github/kevinwolfcr/devtools"><img src="https://img.shields.io/codecov/c/github/kevinwolfcr/devtools.svg?style=flat-square" alt="Code Coverage" /></a>
-<a href="https://greenkeeper.io"><img src="https://badges.greenkeeper.io/kevinwolfcr/devtools.svg?style=flat-square" alt="Greenkeeper" /></a>
+<a href="https://travis-ci.org/iamkevinwolf/devtools"><img src="https://img.shields.io/travis/iamkevinwolf/devtools.svg?style=flat-square" alt="Build Status" /></a>
+<a href="https://codecov.io/github/iamkevinwolf/devtools"><img src="https://img.shields.io/codecov/c/github/iamkevinwolf/devtools.svg?style=flat-square" alt="Code Coverage" /></a>
+<a href="https://greenkeeper.io"><img src="https://badges.greenkeeper.io/iamkevinwolf/devtools.svg?style=flat-square" alt="Greenkeeper" /></a>
 <!-- END status-badges -->
 </p>
 
@@ -83,7 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START  -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://kevinwolf.me"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt="Kevin Wolf"/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Code">💻</a> <a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Documentation">📖</a> <a href="#ideas-kevinwolfcr" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-kevinwolfcr" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-kevinwolfcr" title="Maintenance">🚧</a> <a href="https://github.com/kevinwolfcr/devtools/commits?author=kevinwolfcr" title="Tests">⚠️</a></td></tr></table>
+<table><tr><td align="center"><a href="https://kevinwolf.me"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt="Kevin Wolf"/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="https://github.com/iamkevinwolf/devtools/commits?author=iamkevinwolf" title="Code">💻</a> <a href="https://github.com/iamkevinwolf/devtools/commits?author=iamkevinwolf" title="Documentation">📖</a> <a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-iamkevinwolf" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-iamkevinwolf" title="Maintenance">🚧</a> <a href="https://github.com/iamkevinwolf/devtools/commits?author=iamkevinwolf" title="Tests">⚠️</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

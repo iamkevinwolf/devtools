@@ -4,9 +4,9 @@
   "author": "Kevin Wolf <hi@kevinwolf.me>",
   "description": "Opinionated shareable ESLint configuration with automatic dependency detection.",
   "license": "MIT",
-  "homepage": "https://github.com/kevinwolfcr/devtools/tree/master/packages/eslint-config#readme",
-  "repository": "https://github.com/kevinwolfcr/devtools",
-  "bugs": "https://github.com/kevinwolfcr/devtools/issues",
+  "homepage": "https://github.com/iamkevinwolf/devtools/tree/master/packages/eslint-config#readme",
+  "repository": "https://github.com/iamkevinwolf/devtools",
+  "bugs": "https://github.com/iamkevinwolf/devtools/issues",
   "main": "./lib/eslint-config.js",
   "directories": {
     "lib": "lib",
