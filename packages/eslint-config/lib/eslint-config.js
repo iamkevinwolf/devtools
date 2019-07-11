@@ -67,6 +67,7 @@ const config = {
     ['no-console', 'warn'],
     ['no-use-before-define', ['error', { functions: false }]],
     ['import/prefer-default-export', 'off'],
+    ifTs(['no-unused-vars', 'off']),
     ifTs(['@typescript-eslint/explicit-function-return-type', 'off']),
     ifTs(['@typescript-eslint/no-unused-vars', 'error']),
     ifTs(['@typescript-eslint/no-use-before-define', 'off']),

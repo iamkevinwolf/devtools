@@ -205,6 +205,13 @@ describe('rules', () => {
     })
   })
 
+  describe('no-unused-vars', () => {
+    it('should be off if typescript is a devDependency', () => {
+      const config = mockPkg({ devDependencies: { typescript: '*' } })
+      expect(config.rules['no-unused-vars']).toBe('off')
+    })
+  })
+
   describe('@typescript-eslint/explicit-function-return-type', () => {
     it('should be included if typescript is a devDependency', () => {
       const config = mockPkg({ devDependencies: { typescript: '*' } })
