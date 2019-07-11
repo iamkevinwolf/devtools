@@ -3,6 +3,7 @@ const utils = require('./utils')
 const ifTs = (...arg) => utils.ifDevDep('typescript', ...arg)
 const ifJest = (...arg) => utils.ifDevDep('jest', ...arg)
 const ifReact = (...arg) => utils.ifAnyDep('react', ...arg)
+const ifReactDom = (...arg) => utils.ifAnyDep('react-dom', ...arg)
 const ifReactTs = (...arg) => ifReact(ifTs(...arg))
 const ifReactNative = (...arg) => utils.ifAnyDep('react-native', ...arg)
 const ifReactNativeTs = (...arg) => ifReactNative(ifTs(...arg))
@@ -30,6 +31,7 @@ const config = {
     'es6',
     'node',
     ifJest('jest'),
+    ifReactDom('browser'),
     ifReactNative('react-native/react-native'),
   ]
     .filter(Boolean)

@@ -92,6 +92,11 @@ describe('env', () => {
     expect(config.env.jest).toBeTruthy()
   })
 
+  it('should init browser environment if react-dom is any dependency', () => {
+    const config = mockPkg({ dependencies: { 'react-dom': '*' } })
+    expect(config.env.browser).toBeTruthy()
+  })
+
   it('should init react native environment if react-native is any dependency', () => {
     const config = mockPkg({ dependencies: { 'react-native': '*' } })
     expect(config.env['react-native/react-native']).toBeTruthy()

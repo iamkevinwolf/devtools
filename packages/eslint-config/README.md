@@ -65,6 +65,7 @@ This opinionated ESLint configuration automatically detects what dependencies my
   - [React](#react)
     - [extends](#extends-2)
     - [plugins](#plugins-2)
+    - [env](#env-2)
     - [`import/resolver` plugin settings](#importresolver-plugin-settings-2)
     - [rules](#rules-1)
   - [React with TypeScript](#react-with-typescript)
@@ -72,7 +73,7 @@ This opinionated ESLint configuration automatically detects what dependencies my
     - [rules](#rules-2)
   - [React Native](#react-native)
     - [plugins](#plugins-3)
-    - [env](#env-2)
+    - [env](#env-3)
     - [`import/resolver` plugin settings](#importresolver-plugin-settings-4)
   - [React Native with TypeScript](#react-native-with-typescript)
     - [`import/resolver` plugin settings](#importresolver-plugin-settings-5)
@@ -212,6 +213,10 @@ This rules will apply if you have `react` installed in any dependency group.
 
 - `react`
 - `react-hooks`
+
+#### env
+
+- `browser` (if `react-dom` is installed in any dependency group)
 
 #### `import/resolver` plugin settings
 
