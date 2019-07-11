@@ -1,6 +1,6 @@
 {
   "name": "@kevinwolf/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Kevin Wolf <hi@kevinwolf.me>",
   "description": "Opinionated shareable ESLint configuration with automatic dependency detection.",
   "license": "MIT",
