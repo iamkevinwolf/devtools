@@ -56,7 +56,7 @@ This opinionated ESLint configuration automatically detects what dependencies my
     - [Rules](#rules)
   - [Jest](#jest)
     - [env](#env-1)
-    - [TypeScript](#typescript)
+  - [TypeScript](#typescript)
     - [parser](#parser-1)
     - [extends](#extends-1)
     - [plugins](#plugins-1)
@@ -173,7 +173,7 @@ This rules will apply if you have `jest` installed as a devDependency.
 
 - `jest`
 
-#### TypeScript
+### TypeScript
 
 This rules will apply if you have `typescript` installed as a devDependency.
 
