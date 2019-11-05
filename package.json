@@ -13,12 +13,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "codecov": "^3.5.0",
+    "codecov": "^3.6.1",
     "doctoc": "^1.4.0",
-    "husky": "^3.0.1",
-    "jest": "^24.8.0",
-    "lerna": "^3.16.2",
-    "lint-staged": "^9.2.0",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lerna": "^3.18.3",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2"
   }
 }

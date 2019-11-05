@@ -304,6 +304,6 @@ describe('rules', () => {
 })
 
 function mockPkg(pkg = {}) {
-  readPkgUpSyncMock.mockImplementationOnce(() => ({ package: pkg }))
+  readPkgUpSyncMock.mockImplementationOnce(() => ({ packageJson: pkg }))
   return require('..')
 }

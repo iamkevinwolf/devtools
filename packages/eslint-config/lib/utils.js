@@ -4,7 +4,7 @@ const has = require('lodash.has')
 
 const pkg = readPkgUp.sync({
   cwd: fs.realpathSync(process.cwd()),
-}).package
+}).packageJson
 
 const hasPkgProp = (prop) => has(pkg, prop)
 const hasPkgSubProp = (pkgProp) => (prop) => hasPkgProp(`${pkgProp}.${prop}`)
